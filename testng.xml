@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium QA Automation Suite">
+    <test name="Regression Tests">
+        <classes>
+            <class name="org.example.tests.LoginTest"/>
+            <class name="org.example.tests.CheckboxTest"/>
+            <class name="org.example.tests.DropdownTest"/>
+        </classes>
+    </test>
+</suite>
